@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-light py-1 ms-xl-5 ps-xl-5 me-xl-5 pe-xl-5">
+    <nav class="navbar navbar-expand-lg bg-light py-1 ms-xl-5 ps-xl-5 me-xl-5 pe-xl-5 sticky-top">
       <div class="container-fluid px-2 align-items-center">
         <div class="d-flex align-items-center">
           <button
@@ -938,8 +938,8 @@
         </div>
       </div>
     </nav>
-    <aside class="aside-elements d-none d-md-flex w-25 ms-xl-5 ps-xl-5 me-xl-5 pe-xl-5">
-        <div class="offcanvas-body d-flex flex-column px-1 py-0">
+    <aside class="aside-elements d-none d-md-flex w-25 ms-xl-5 ps-xl-5 me-xl-5 pe-xl-5 ">
+        <div class="offcanvas-body d-flex flex-column px-1 py-0 overflow-hidden">
             <button class="aside-button side-button btn btn-secondary text-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1729,8 +1729,45 @@
                 </svg>
               </a>
             </div>
-            <h5 class="ps-3 pt-4 fs-6" id="offcanvasExampleLabel">My tags</h5>
-
+            <div class="d-flex align-items-center justify-content-between px-3 mt-4">
+                <h5 class="my-0 fs-6" id="offcanvasExampleLabel">My tags</h5>
+                <a class="tags-icon p-2 rounded" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" class="crayons-icon">
+                        <path d="M12 1l9.5 5.5v11L12 23l-9.5-5.5v-11L12 1zm0 2.311L4.5 7.653v8.694l7.5 4.342 7.5-4.342V7.653L12 3.311zM12 16a4 4 0 110-8 4 4 0 010 8zm0-2a2 2 0 100-4 2 2 0 000 4z"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="px-3 my-4">
+                <ul class="list-group">
+                    <li><a class="list-group-item px-1 rounded" href="">#discuss</a></li>
+                    <li><a class="list-group-item px-1 rounded" href="">#github</a></li>
+                    <li><a class="list-group-item px-1 rounded" href="">#weeklyretro</a></li>
+                    <li><a class="list-group-item px-1 rounded" href="">#weeklylearn</a></li>
+                </ul>
+            </div>
+            <section class="card p-3 m-2">
+                <strong>
+                    <h3 class="card-body p-0 mb-2">
+                        Nearly 700 developers have contributed to the Forem codebase that powers DEV and other communities. 🤯
+                    </h3>
+                </strong>
+                <h2 class="card-title my-4">
+                    Thank you!
+                </h2>
+                <a class="card-link mt-2" href="">
+                    👉 Forem on GitHub 👈
+                </a>
+            </section>
+            <section class="card p-3 m-2">
+                <img class="mb-3 rounded" src="https://res.cloudinary.com/practicaldev/image/fetch/s--vf_P4FwD--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://p32.f1.n0.cdn.getcloudapp.com/items/OAu6mnD1/20ada628-9434-4772-a8e0-7d861713d3c4.jpg" loading="lazy">
+                <h2 class="card-title mb-2">
+                    The Forem Shop is Here!
+                </h2>
+                <a class="card-link" href="">
+                    >> Shop Forem, DEV, and CodeNewbie merch
+                </a>
+            </section>
+            
         </div>
     </aside>
     <script
