@@ -1,1 +1,36 @@
-/*# sourceMappingURL=style.css.map */
+.list-group-item:hover {
+  background-color: white !important;
+  color: blue;
+}
+
+.text-dark {
+  position: relative;
+  z-index: 1;
+  border: 0;
+}
+
+.card-img1 {
+  position: absolute;
+  z-index: 2;
+}
+
+.card-title-nick {
+  position: absolute;
+  z-index: 3;
+  margin-left: 35px;
+}
+
+.card-img-overlay {
+  border: 0 !important;
+  border-color: none !important;
+}
+
+.btn btn-light {
+  background-color: royalblue !important;
+}
+
+.card-link--n {
+  color: slateblue;
+  text-align: center;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
