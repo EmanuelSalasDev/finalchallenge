@@ -97,6 +97,14 @@
     width: 212.57px;
   }
 }
+footer {
+  background-color: rgb(229, 229, 229);
+}
+footer .link-footer {
+  text-decoration: none;
+  color: rgb(59, 73, 223);
+}
+
 * {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
