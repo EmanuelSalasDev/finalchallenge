@@ -1,3 +1,4 @@
+
 body {
   background-color: #FAFAFA;
 }
@@ -240,4 +241,159 @@ body {
   .card__bottom--text {
     display: inline;
   }
+=======
+.profile-picture__img {
+  width: 33px;
+}
+
+.profile-picture__img {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(206, 212, 218);
+}
+
+.form-control {
+  width: 400px;
+  padding-right: 50px;
+}
+
+.search-button {
+  background-color: transparent;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: none;
+  margin-left: -40px;
+}
+
+.button-create {
+  background-color: white;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(59, 73, 223);
+  color: rgb(59, 73, 223);
+}
+
+.button-create:hover {
+  background-color: rgb(59, 73, 223);
+  color: white;
+  text-decoration: underline;
+}
+
+.offcanvas {
+  width: 90vw !important;
+}
+
+.side-button {
+  background-color: white;
+  border-style: none;
+  color: gray;
+  height: 50px;
+}
+
+.aside-button:hover {
+  background-color: rgb(226, 227, 243);
+  color: rgb(59, 73, 223);
+  text-decoration: underline;
+}
+
+.side-button:hover {
+  background-color: rgb(226, 227, 243);
+  color: rgb(59, 73, 223);
+  text-decoration: underline;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(235, 235, 236);
+}
+
+.card-body {
+  font-size: 1rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-link {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(59, 73, 223);
+}
+
+.tags-icon:hover {
+  background-color: rgb(226, 227, 243);
+}
+
+.list-group {
+  list-style: none;
+}
+.list-group .list-group-item {
+  border-style: none;
+  font-weight: lighter;
+}
+.list-group .list-group-item:hover {
+  background-color: rgb(226, 227, 243);
+  color: rgb(59, 73, 223);
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .aside-elements {
+    width: 212.57px;
+  }
+}
+footer {
+  background-color: rgb(229, 229, 229);
+}
+footer .link-footer {
+  text-decoration: none;
+  color: rgb(59, 73, 223);
+}
+
+.button {
+  background-color: transparent;
+  border-style: none;
+}
+
+.unicorn:hover .unicorn-icon:hover {
+  background-color: rgb(234, 244, 240);
+  fill: rgb(4, 151, 105);
+}
+
+.save:hover .save-icon:hover {
+  background-color: rgb(237, 236, 252);
+  fill: rgb(80, 70, 229);
+}
+
+.like:hover .like-icon:hover {
+  background-color: rgb(253, 234, 234);
+  fill: rgb(220, 38, 37);
+}
+
+.more:hover .more-icon:hover {
+  background-color: rgb(246, 246, 246);
+  fill: black;
+}
+
+.btn:hover {
+  border-style: none;
+}
+
+aside {
+  z-index: -1;
+}
+
+nav {
+  z-index: 2;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+
 }/*# sourceMappingURL=style.css.map */
