@@ -13,7 +13,7 @@ body {
 
 .header__title {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .card__timeline {
@@ -23,7 +23,7 @@ body {
   font-weight: 500;
 }
 .card__timeline .header__title {
-  font-size: 25px;
+  font-size: 20px;
 }
 .card__top {
   position: relative;
