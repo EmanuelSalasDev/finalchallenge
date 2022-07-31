@@ -91,7 +91,9 @@ body {
   color: black;
 }
 .card__text--bottom {
-  font-size: 12px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 100;
   color: gray;
   text-decoration: none;
 }
@@ -118,6 +120,9 @@ body {
   display: inline-block;
   padding: 2px 7px;
   border: 1px solid white;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
 }
 .card__tag--generic:hover {
   background-color: lightgray;
@@ -181,17 +186,17 @@ body {
 }
 .card__bottom--icons {
   display: inline-block;
-  width: 160px;
+  width: 52%;
   height: 31.75px;
   position: relative;
 }
 .card__bottom .card__item {
   margin-left: 5px;
+  font-family: "Helvetica Neue";
   color: gray;
   text-decoration: none;
   border-radius: 5px;
   display: inline-block;
-  padding: 2px 7px;
 }
 .card__bottom .card__item:hover {
   background-color: rgb(242, 242, 242);
@@ -203,11 +208,21 @@ body {
   display: none;
 }
 .card__bottom--time {
-  font-size: 12px;
   color: gray;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 100;
 }
 .card__bottom--text {
   display: none;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+}
+.card__bottom--number {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
 }
 .card__bottom--btn {
   margin-left: 5px;
@@ -235,10 +250,15 @@ body {
     margin: 0 0 0 40px;
   }
   .card__bottom--icons {
-    width: 570px;
+    width: 74%;
   }
   .card__bottom--text {
     display: inline;
+  }
+}
+@media (min-width: 1440px) {
+  .card__bottom--icons {
+    width: 80%;
   }
 }
 .profile-picture__img {

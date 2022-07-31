@@ -102,7 +102,9 @@ body{
             }
         }
         &--bottom{
-            font-size: 12px;
+            font-family:  "Helvetica Neue", Arial, sans-serif;
+            font-size: 10px;
+            font-weight: 100;
             color: gray;
             text-decoration: none;
             &:hover{
@@ -133,6 +135,9 @@ body{
         display:inline-block;
         padding:2px 7px;
         border: 1px solid white;
+        font-family:  "Helvetica Neue", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 100;
         &--generic:hover{
             background-color: lightgray;
             border-color: none;
@@ -200,17 +205,18 @@ body{
     &__bottom{
         &--icons{
             display:inline-block;
-            width:160px;
+            width:52%;
             height: 31.75px;
             position:relative;
         }
         .card__item{
             margin-left: 5px;
+            font-family: 'Helvetica Neue';
             color:gray;
             text-decoration:none;
             border-radius: 5px;
             display:inline-block;
-            padding:2px 7px;
+            // padding:2px 7px;
             &:hover{
                 background-color: rgb(242, 242, 242);
             }
@@ -223,13 +229,22 @@ body{
             }
         }
         &--time{
-            // margin-left: 35px;
-            font-size: 12px;
             color:gray;
+            font-family:  "Helvetica Neue", Arial, sans-serif;
+            font-size: 10px;
+            font-weight: 100;
             
         }
         &--text{
             display:none;
+            font-family:  "Helvetica Neue", Arial, sans-serif;
+            font-size: 12px;
+            font-weight: 100;
+        }
+        &--number{
+            font-family:  "Helvetica Neue", Arial, sans-serif;
+            font-size: 12px;
+            font-weight: 100;
         }
         &--btn{
             margin-left: 5px;
@@ -260,10 +275,20 @@ body{
             margin: 0 0 0 40px;
 
             &--icons{
-                width: 570px;
+                width: 74%;
             }
             &--text{
                 display:inline
+            }
+        }
+    }
+}
+
+@media (min-width:1440px){
+    .card{
+        &__bottom{
+            &--icons{
+                width: 80%;
             }
         }
     }
