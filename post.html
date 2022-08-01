@@ -24,7 +24,7 @@
     <nav
       class="navbar navbar-expand-lg bg-light py-1 ms-xl-5 ps-xl-5 me-xl-5 pe-xl-5 sticky-top"
     >
-      <div class="container-fluid px-2 align-items-center "tabindex="-1">
+      <div class="container-fluid px-2 align-items-center"tabindex="-1">
         <div class="d-flex align-items-center">
           <button
             class="navbar-toggler border-0 d-md-none"
@@ -941,88 +941,548 @@
       </div>
     </nav>
 
-    <aside class="d-md-flex w-md-25  ms-xl-5 ps-xl-5 me-xl-5 pe-xl-5">
-        <div class="d-flex flex-row justify-content-around shadow-small position-sticky bottom-0 flex-md-column rounded-top p-3">
-            <button class="button like d-flex flex-row align-items-center flex-md-column py-md-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" role="img" aria-hidden="true" class="like-icon p-1  rounded-circle">
-                    <path d="M21.179 12.794l.013.014L12 22l-9.192-9.192.013-.014A6.5 6.5 0 0112 3.64a6.5 6.5 0 019.179 9.154zM4.575 5.383a4.5 4.5 0 000 6.364L12 19.172l7.425-7.425a4.5 4.5 0 10-6.364-6.364L8.818 9.626 7.404 8.21l3.162-3.162a4.5 4.5 0 00-5.99.334l-.001.001z"></path>
-                </svg>
-                <span class="mx-2 fw-normal">
-                    16
-                </span>
-            </button>
-            <button class="button unicorn d-flex flex-row align-items-center flex-md-column py-md-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" role="img" aria-hidden="true" class="unicorn-icon p-1  rounded-circle">
-                    <path d="M5.645 8.013c.013-.265-.261-.323-.4-.183-1.16 1.17-1.822 3.865-.344 7.32.294.961 1.938 3.19.84 6.131l-.003.006c-.094.255.206.404.366.263 1.395-1.226 1.933-3.593 1.1-6.375-.488-1.657-1.955-4.226-1.559-7.162zm-3.22 2.738c.05-.137-.124-.417-.326-.225-.939.893-1.316 2.863-.976 4.605.547 2.878 2.374 3.526 2.066 6.629-.028.102.176.38.348.154 1.546-2.033.409-4.453-.241-6.006-1.005-2.386-1.087-4.118-.871-5.157z"></path>
-                    <path d="M13.622 7.223l8.579-3.68c.598-.256 1.087.547.6.985l-6.618 5.941c.881 2.043 2.738 6.34 2.931 6.775 1.348 3.031-2.055 4.918-3.807 3.583a7.027 7.027 0 01-.623-.574c-.974-.965-2.419-2.398-5.207-1.877.284-2.115-.313-3.737-.883-5.288-.38-1.032-.747-2.032-.837-3.124-.346-3.329 3.763-8.23 4.696-7.953.386.115.326 1.229.266 2.319-.051.948-.102 1.88.143 2.12.145.142.428.43.76.773zM11.5 16.5l2.5.5 2.5 2 1-.5-2-4.5-1.5-4-1.5-1-1-1-1-1.5L10 8l-.5 1.5 1 2.5 1 4.5z"></path>
-                </svg>
-                <span class="mx-2 fw-normal">
-                    1
-                </span>
-            </button>
-            <button class="button save  d-flex flex-row align-items-center flex-md-column py-md-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" role="img" aria-hidden="true" class="save-icon p-1  rounded-circle">
-                    <path d="M5 2h14a1 1 0 011 1v19.143a.5.5 0 01-.766.424L12 18.03l-7.234 4.536A.5.5 0 014 22.143V3a1 1 0 011-1zm13 2H6v15.432l6-3.761 6 3.761V4z"></path>
-                </svg>
-                <span class="mx-2 fw-normal">
-                    10
-                </span>
-            </button>
-            <button class="button more d-flex flex-row align-items-center flex-md-column py-md-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" role="img" aria-labelledby="at9bhajw2ig0mb8tvqssxnm1p4sj3c4h" aria-hidden="true" class="more-icon p-1  rounded-circle""><title id="at9bhajw2ig0mb8tvqssxnm1p4sj3c4h">More...</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7 12a2 2 0 11-4 0 2 2 0 014 0zm7 0a2 2 0 11-4 0 2 2 0 014 0zm5 2a2 2 0 100-4 2 2 0 000 4z"></path></svg>
-            </button>
+    <div class="container-fluid px-3">
+
+        <div class="row">
+          <div class="col-md-1 p-md-3 mx-0 py-md-5 sticky-bottom order-3 order-md-1">
+            <aside class="d-md-flex">
+                <div class="col-md-1 aside-bottom d-flex flex-row justify-content-center shadow-small flex-md-column rounded-top py-3">
+                    <button class="button btn like d-flex flex-row align-items-center flex-md-column py-md-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" role="img" aria-hidden="true" class="like-icon p-1  rounded-circle">
+                            <path d="M21.179 12.794l.013.014L12 22l-9.192-9.192.013-.014A6.5 6.5 0 0112 3.64a6.5 6.5 0 019.179 9.154zM4.575 5.383a4.5 4.5 0 000 6.364L12 19.172l7.425-7.425a4.5 4.5 0 10-6.364-6.364L8.818 9.626 7.404 8.21l3.162-3.162a4.5 4.5 0 00-5.99.334l-.001.001z"></path>
+                        </svg>
+                        <span class="mx-2 fw-normal">
+                            16
+                        </span>
+                    </button>
+                    <button class="button btn unicorn d-flex flex-row align-items-center flex-md-column py-md-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" role="img" aria-hidden="true" class="unicorn-icon p-1  rounded-circle">
+                            <path d="M5.645 8.013c.013-.265-.261-.323-.4-.183-1.16 1.17-1.822 3.865-.344 7.32.294.961 1.938 3.19.84 6.131l-.003.006c-.094.255.206.404.366.263 1.395-1.226 1.933-3.593 1.1-6.375-.488-1.657-1.955-4.226-1.559-7.162zm-3.22 2.738c.05-.137-.124-.417-.326-.225-.939.893-1.316 2.863-.976 4.605.547 2.878 2.374 3.526 2.066 6.629-.028.102.176.38.348.154 1.546-2.033.409-4.453-.241-6.006-1.005-2.386-1.087-4.118-.871-5.157z"></path>
+                            <path d="M13.622 7.223l8.579-3.68c.598-.256 1.087.547.6.985l-6.618 5.941c.881 2.043 2.738 6.34 2.931 6.775 1.348 3.031-2.055 4.918-3.807 3.583a7.027 7.027 0 01-.623-.574c-.974-.965-2.419-2.398-5.207-1.877.284-2.115-.313-3.737-.883-5.288-.38-1.032-.747-2.032-.837-3.124-.346-3.329 3.763-8.23 4.696-7.953.386.115.326 1.229.266 2.319-.051.948-.102 1.88.143 2.12.145.142.428.43.76.773zM11.5 16.5l2.5.5 2.5 2 1-.5-2-4.5-1.5-4-1.5-1-1-1-1-1.5L10 8l-.5 1.5 1 2.5 1 4.5z"></path>
+                        </svg>
+                        <span class="mx-2 fw-normal">
+                            1
+                        </span>
+                    </button>
+                    <button class="button btn save  d-flex flex-row align-items-center flex-md-column py-md-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" role="img" aria-hidden="true" class="save-icon p-1  rounded-circle">
+                            <path d="M5 2h14a1 1 0 011 1v19.143a.5.5 0 01-.766.424L12 18.03l-7.234 4.536A.5.5 0 014 22.143V3a1 1 0 011-1zm13 2H6v15.432l6-3.761 6 3.761V4z"></path>
+                        </svg>
+                        <span class="mx-2 fw-normal">
+                            10
+                        </span>
+                    </button>
+                    <button class="button btn more d-flex flex-row align-items-center flex-md-column py-md-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" role="img" aria-labelledby="at9bhajw2ig0mb8tvqssxnm1p4sj3c4h" aria-hidden="true" class="more-icon p-1  rounded-circle""><title id="at9bhajw2ig0mb8tvqssxnm1p4sj3c4h">More...</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7 12a2 2 0 11-4 0 2 2 0 014 0zm7 0a2 2 0 11-4 0 2 2 0 014 0zm5 2a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+                    </button>
+                </div>
+            </aside>
+      
+      
         </div>
-    </aside>
-        <section class="col-3">
 
-         <section>
+          <div class="col-8 order-md-2 order-1">
+            <main class="container m-0 p-0 overflow-hidden">
 
-        <div class="card text-bg-white">
-            <p class="text-dark bg-dark">text dark</p>
-            <img src="./assets/asideright/Nicktaylor.jpg" width="75px" height="75px" class="card-img1 rounded-circle mt-2" alt="Nick Taylor">
-            
-            <div class="card-img-overlay">
-              <h5 class="card-title-nick ps-5 mt-4" >Nick Taylor</h5>
+              <!-- */ Nick Tayalor section */  -->
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--JpnZwwRh--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5o3z8c08u7uyyxdqyiu1.jpeg"
+                class="img-fluid "
+                alt="img-july29th"
+              />
+        
+              <!-- */ Nick Tayalor section */  -->
+              <section class="section__taylor col-sm-12 col-md-12 col-lg-12"> 
+                <div class="d-flex align-self-center align-items-center px-3 pt-3">
+                  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--EkBIkzdc--/c_fill,f_auto,fl_progressive,h_50,q_auto,w_50/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/9597/2629be65-f045-4612-a7e9-28cd9e48bd49.jpg" alt="img__taylor" class="rounded-circle img-taylor"/>
+                  <div>
+                    <h3 class="mb-0 px-3 text__nick">Nick Taylor</h3>
+                    <p class="text-muted fw-light mb-0 px-3 text__posted">Posted on 29 Jul</p>
+                  </div>
+                </div>
+              </section>
+        
+              <!-- */ Title section */  -->
+              <section class="container-fluid">
+              <div class="section__title d-flex col-sm-12 col-md-12 col-lg-12">
+              <h2 class="fw-bold lh-base py-1 text__title my-2">July 29th, 2022: What did you learn this week?</h2>
+              </div>
+              </section>
+        
+              
+              <!-- */ # section */  -->
+              <section class="container-fluid">
+              <div class="d-flex flex-wrap lh-lg ">
+              <a href="https://dev.to/t/discuss" class="text-decoration-none text-muted ms-3"><span class="span__discuss col-sm-">#</span>discuss</a>
+              <a href="https://dev.to/t/weeklyretro" class="text-decoration-none text-muted ps-3"><span class="span__retro col-sm-3">#</span>weeklyretro</a>
+              <a href="https://dev.to/t/weeklylearn" class="text-decoration-none text-muted ps-3"><span class="span__learn col-sm-3">#</span>weeklylearn</a>
+                </div>
+             </section>
+        
+              <!-- */ learnings section */  -->
+              <div class="container__learnings">
+                <ul class="list-group px-3 mt-4">
+                  <a
+                    href="https://dev.to/nickytonline/series/16199"
+                    class="text-decoration-none d-flex align-self-center align-items-center"
+                    ><li class="list-group-item list__group__title fw-bold ">
+                      Weekly Learnings 2022 (30 Part Series)
+                    </li></a
+                  >
+                 <div class="d-flex align-self-center align-items-center">
+                  <a
+                    href="https://dev.to/nickytonline/january-6th-2022-what-did-you-learn-this-week-2dpl"
+                    class="text-decoration-none"
+                    ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">1</span></div>
+                      January 6th, 2022: What did you learn this week?
+                    </li></a
+                  >
+                  </div>
+                  <div class="d-flex align-self-center align-items-center">
+                    <a
+                      href="https://dev.to/nickytonline/january-13th-2022-what-did-you-learn-this-week-j82"
+                      class="text-decoration-none"
+                      ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">2</span></div>
+                        January 13th, 2022: What did you learn this week?
+                      </li></a
+                    >
+                    </div>
+                    <div class="d-flex align-self-center align-items-center">
+                      <a
+                        href="https://dev.to/nickytonline/january-20th-2022-what-did-you-learn-this-week-odl"
+                        class="text-decoration-none"
+                        ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">3</span></div>
+                          January 20th, 2022: What did you learn this week?
+                        </li></a
+                      >
+                      </div>
+                      <div class="d-flex align-self-center align-items-center">
+                        <a
+                          href="https://dev.to/nickytonline/january-27th-2022-what-did-you-learn-this-week-5aee"
+                          class="text-decoration-none"
+                          ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">4</span></div>
+                            January 27th, 2022: What did you learn this week?
+                          </li></a
+                        >
+                        </div>
+                        <div class="d-flex align-self-center align-items-center">
+                          <a
+                            href="https://dev.to/nickytonline/february-3rd-2022-what-did-you-learn-this-week-447c"
+                            class="text-decoration-none"
+                            ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">5</span></div>
+                              February 3rd, 2022: What did you learn this week?
+                            </li></a
+                          >
+                          </div>
+                          <div class="d-flex align-self-center align-items-center">
+                            <a
+                              href="https://dev.to/nickytonline/february-11th-2022-what-did-you-learn-this-week-176o"
+                              class="text-decoration-none"
+                              ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">6</span></div>
+                                February 11th, 2022: What did you learn this week?
+                              </li></a
+                            >
+                            </div>
+                            <div class="d-flex align-self-center align-items-center">
+                              <a
+                                href="https://dev.to/nickytonline/february-17th-2022-what-did-you-learn-this-week-143j"
+                                class="text-decoration-none"
+                                ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">7</span></div>
+                                  February 17th, 2022: What did you learn this week?
+                                </li></a
+                              >
+                              </div>
+                              <div class="d-flex align-self-center align-items-center">
+                                <a
+                                  href="https://dev.to/nickytonline/february-25th-2022-what-did-you-learn-this-week-4bgf"
+                                  class="text-decoration-none"
+                                  ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">8</span></div>
+                                    February 25th, 2022: What did you learn this week?
+                                  </li></a
+                                >
+                                </div>
+                                <div class="d-flex align-self-center align-items-center">
+                                  <a
+                                    href="https://dev.to/nickytonline/march-3rd-2022-what-did-you-learn-this-week-3i9p"
+                                    class="text-decoration-none"
+                                    ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">9</span></div>
+                                      March 3rd, 2022: What did you learn this week?
+                                    </li></a
+                                  >
+                                  </div>
+                                  <div class="d-flex align-self-center align-items-center">
+                                    <a
+                                      href="https://dev.to/nickytonline/march-11th-2022-what-did-you-learn-this-week-509f"
+                                      class="text-decoration-none"
+                                      ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">10</span></div>
+                                        March 11th, 2022: What did you learn this week?
+                                      </li></a
+                                    >
+                                    </div>
+                                    <div class="d-flex align-self-center align-items-center">
+                                      <a
+                                        href="https://dev.to/nickytonline/march-17th-2022-what-did-you-learn-this-week-1d8b"
+                                        class="text-decoration-none"
+                                        ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">11</span></div>
+                                          March 17th, 2022: What did you learn this week?
+                                        </li></a
+                                      >
+                                      </div>
+                                      <div class="d-flex align-self-center align-items-center">
+                                        <a
+                                          href="https://dev.to/nickytonline/march-24th-2022-what-did-you-learn-this-week-589"
+                                          class="text-decoration-none"
+                                          ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">12</span></div>
+                                            March 24th, 2022: What did you learn this week?
+                                          </li></a
+                                        >
+                                        </div>
+                                        <div class="d-flex align-self-center align-items-center">
+                                          <a
+                                            href="https://dev.to/nickytonline/march-31st-2022-what-did-you-learn-this-week-g6f"
+                                            class="text-decoration-none"
+                                            ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">13</span></div>
+                                              March 31st, 2022: What did you learn this week?
+                                            </li></a
+                                          >
+                                          </div>
+                                          <div class="d-flex align-self-center align-items-center">
+                                            <a
+                                              href="https://dev.to/nickytonline/april-7th-2021-what-did-you-learn-this-week-17g2"
+                                              class="text-decoration-none"
+                                              ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">14</span></div>
+                                                April 7th, 2022: What did you learn this week?
+                                              </li></a
+                                            >
+                                            </div>
+                                            <div class="d-flex align-self-center align-items-center">
+                                              <a
+                                                href="https://dev.to/nickytonline/april-14th-2022-what-did-you-learn-this-week-98b"
+                                                class="text-decoration-none"
+                                                ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">15</span></div>
+                                                  April 14th, 2022: What did you learn this week?
+                                                </li></a
+                                              >
+                                              </div>
+                                              <div class="d-flex align-self-center align-items-center">
+                                                <a
+                                                  href="https://dev.to/nickytonline/april-21st-2022-vs-code-tip-of-the-week-44cl"
+                                                  class="text-decoration-none"
+                                                  ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">16</span></div>
+                                                    April 21st, 2022: What did you learn this week?
+                                                  </li></a
+                                                >
+                                                </div>
+                                                <div class="d-flex align-self-center align-items-center">
+                                                  <a
+                                                    href="https://dev.to/nickytonline/april-28th-2022-what-did-you-learn-this-week-3ha7"
+                                                    class="text-decoration-none"
+                                                    ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">17</span></div>
+                                                      April 28th, 2022: What did you learn this week?
+                                                    </li></a
+                                                  >
+                                                  </div>
+                                                  <div class="d-flex align-self-center align-items-center">
+                                                    <a
+                                                      href="https://dev.to/nickytonline/may-5th-2022-what-did-you-learn-this-week-ml6"
+                                                      class="text-decoration-none"
+                                                      ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">18</span></div>
+                                                        May 5th, 2022: What did you learn this week?
+                                                      </li></a
+                                                    >
+                                                    </div>
+                                                    <div class="d-flex align-self-center align-items-center">
+                                                      <a
+                                                        href="https://dev.to/nickytonline/may-12th-2022-what-did-you-learn-this-week-8il"
+                                                        class="text-decoration-none"
+                                                        ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">19</span></div>
+                                                          May 12th, 2022: What did you learn this week?
+                                                        </li></a
+                                                      >
+                                                      </div>
+                                                      <div class="d-flex align-self-center align-items-center">
+                                                        <a
+                                                          href="https://dev.to/nickytonline/february-19th-2022-what-did-you-learn-this-week-93m"
+                                                          class="text-decoration-none"
+                                                          ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">20</span></div>
+                                                            May 19th, 2022: What did you learn this week?
+                                                          </li></a
+                                                        >
+                                                        </div>
+                                                        <div class="d-flex align-self-center align-items-center">
+                                                          <a
+                                                            href="https://dev.to/nickytonline/may-26th-2022-what-did-you-learn-this-week-2lc4"
+                                                            class="text-decoration-none"
+                                                            ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">21</span></div>
+                                                              May 26th, 2022: What did you learn this week?
+                                                            </li></a
+                                                          >
+                                                          </div>
+                                                          <div class="d-flex align-self-center align-items-center">
+                                                            <a
+                                                              href="https://dev.to/nickytonline/june-2nd-2022-what-did-you-learn-this-week-5507"
+                                                              class="text-decoration-none"
+                                                              ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">22</span></div>
+                                                                June 2nd, 2022: What did you learn this week?
+                                                              </li></a
+                                                            >
+                                                            </div>
+                                                            <div class="d-flex align-self-center align-items-center">
+                                                              <a
+                                                                href="https://dev.to/nickytonline/june-9th-2022-what-did-you-learn-this-week-52a3"
+                                                                class="text-decoration-none"
+                                                                ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">23</span></div>
+                                                                  June 9th, 2022: What did you learn this week?
+                                                                </li></a
+                                                              >
+                                                              </div>
+                                                              <div class="d-flex align-self-center align-items-center">
+                                                                <a
+                                                                  href="https://dev.to/nickytonline/june-16th-2022-what-did-you-learn-this-week-1e3l"
+                                                                  class="text-decoration-none"
+                                                                  ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">24</span></div>
+                                                                    June 16th, 2022: What did you learn this week?
+                                                                  </li></a
+                                                                >
+                                                                </div>
+                                                                <div class="d-flex align-self-center align-items-center">
+                                                                  <a
+                                                                    href="https://dev.to/nickytonline/june-23rd-2022-what-did-you-learn-this-week-3l2d"
+                                                                    class="text-decoration-none"
+                                                                    ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">25</span></div>
+                                                                      June 23rd, 2022: What did you learn this week?
+                                                                    </li></a
+                                                                  >
+                                                                  </div>
+                                                                  <div class="d-flex align-self-center align-items-center">
+                                                                    <a
+                                                                      href="https://dev.to/nickytonline/june-30th-2022-what-did-you-learn-this-week-160a"
+                                                                      class="text-decoration-none"
+                                                                      ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">26</span></div>
+                                                                        June 30th, 2022: What did you learn this week?
+                                                                      </li></a
+                                                                    >
+                                                                    </div>
+                                                                    <div class="d-flex align-self-center align-items-center">
+                                                                      <a
+                                                                        href="https://dev.to/nickytonline/july-7th-2022-what-did-you-learn-this-week-gki"
+                                                                        class="text-decoration-none"
+                                                                        ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">27</span></div>
+                                                                          July 7th, 2022: What did you learn this week?
+                                                                        </li></a
+                                                                      >
+                                                                      </div>
+                                                                      <div class="d-flex align-self-center align-items-center">
+                                                                        <a
+                                                                          href="https://dev.to/nickytonline/july-14th-2022-what-did-you-learn-this-week-i80"
+                                                                          class="text-decoration-none"
+                                                                          ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">28</span></div>
+                                                                            July 14th, 2022: What did you learn this week?
+                                                                          </li></a
+                                                                        >
+                                                                        </div>
+                                                                        <div class="d-flex align-self-center align-items-center">
+                                                                          <a
+                                                                            href="https://dev.to/nickytonline/july-21st-2022-what-did-you-learn-this-week-4nn4"
+                                                                            class="text-decoration-none"
+                                                                            ><li class="list-group-item d-flex align-items-center fw-light"><div><span class="badge bg-primary rounded-pill fw-light me-3">29</span></div>
+                                                                              July 21st, 2022: What did you learn this week?
+                                                                            </li></a
+                                                                          >
+                                                                          </div>
+                                                                          <div class="d-flex align-self-center align-items-center">
+                                                                            <a
+                                                                              href="https://dev.to/nickytonline/july-29th-2022-what-did-you-learn-this-week-26m1"
+                                                                              class="text-decoration-none"
+                                                                              ><li class="list-group-item d-flex align-items-center fw-bold list__group__final"><div><span class="badge badge__30 bg-primary rounded-pill fw-light me-3">30</span></div>
+                                                                                July 29th, 2022: What did you learn this week?
+                                                                              </li></a
+                                                                            >
+                                                                            </div>
+                  </ul>
+                </ul>
+              </div>
+                
+              <!-- */ p section */  -->
+              <section class="col-sm-12 col-md-12 col-lg-12"> 
+                <div class="d-flex align-self-center align-items-center px-3 pt-3 text__aftergift">
+                  <p>It's that time of the week again. So wonderful devs, what did you learn this week? It could be programming tips, career advice etc.</p>
+                  </div>
+                </section>
+                <section class="col-sm-12 col-md-12 col-lg-12"> 
+                  <div class="d-flex align-self-center align-items-center ms-3">
+                    <img class="img__gif" src="https://i.giphy.com/media/Q8rwlNTcDAU3MuUzd7/giphy-downsized-large.gif"/>
+                  </div>
+                </section>
+                <section class="col-sm-12 col-md-12 col-lg-12"> 
+                  <div class="d-flex align-self-center align-items-center px-3 pt-3 text__aftergift">
+                    <p>Feel free to comment with what you learnt and/or reference your TIL post to give it some more exposure.</p>
+                    </div>
+                  </section>
+                  <div class="card-body">
+                    <section class="container-fluid ">
+                      <div class="d-flex align-self-center align-items-center">
+                      <a class="text-decoration-none ms-3 span__today pt-2" href="https://dev.to/t/todayilearned"><span class="span__today col-sm-">#</span>todayilearned</a>
+                      <button type="button" class="btn btn-primary btn__follow ms-2 mt-2">Follow</button>
+                        </div>
+                     </section>
+                    <p class="p__summarize ms-4">Summarize a concept that is new to you.</p>
+                  </div>
+                  <section clas2s="col-sm-12 col-md-12 col-lg-12"> 
+                    <div class="d-flex align-self-center align-items-center px-3 pt-3 text__aftergift">
+                      <p>Photo by <a href="https://unsplash.com/es/@flipboo">Philippe Bout</a> on <a href="https://unsplash.com/es/s/fotos/learn">Unsplash</a></p>
+                      </div>
+                    </section>
+                    <div class="card">
+                    </div>
+        
+              
+        
+                <!-- */ Discussion */  -->
+              <section class="col-sm-12 col-md-12 col-lg-12">
+                <div class="d-flex">
+                  <div class="p-2 w-100 discussion">Discussion</div>
+                  <div class="p-2 flex-shrink-1"><button type="button" class="btn btn-light">Suscribe</button></div>
+                </div>
+                <div class="d-flex discussion__container my-3">
+                  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--RmY55OKL--/c_limit,f_auto,fl_progressive,q_auto,w_256/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png" alt="img__discussion" class="rounded-circle img-readnext mx-2 logo__discussion"/>
+                  <div class="d-flex col-10 discussion__tex">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Add to the discussion"></textarea>
+                  </div>
+                </div>
+              </section>
+        
+          
+              <!-- read next -->
+              <section class="section__readnext col-sm-12 col-md-12 col-lg-12">
+                <div class="d-flex align-self-center align-items-center my-4">
+                  <div>
+                    <h3 class="font__readnext mb-0 lh-tight">Read Next</h3>
+                  </div>
+                </div>
+              <div class="d-flex align-self-center align-items-center my-4">
+                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--H7r_s_N7--/c_imagga_scale,f_auto,fl_progressive,h_100,q_auto,w_100/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/351271/9148b711-a13e-4438-bde8-94d155a952b4.jpg" alt="img__bek" class="rounded-circle img-readnext mx-3"/>
+                <div>
+                  <h3 class="font__readnext mb-0 lh-tight">The truth behind being a good programmer</h3>
+                  <p class="text-muted fs-6 fw-light mb-0">Bek Juice - Jul 21</p>
+                </div>
+              </div>
+              <div class="d-flex align-self-center align-items-center my-4">
+                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--PBTSNcTW--/c_imagga_scale,f_auto,fl_progressive,h_100,q_auto,w_100/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/38578/2b719be8-68c7-4456-bd5c-42f21c3bd6a8.png" alt="img_michael" class="rounded-circle img-readnext mx-3"/>
+                <div>
+                  <h3 class="font__readnext mb-0 lh-tight">Music Monday — What are you listening to? (July 18)</h3>
+                  <p class="font_readnextp text-muted font_readnextpfw-light mb-0">Michael Tharrington - Jul 18</p>
+                </div>
+              </div>
+              <div class="d-flex align-self-center align-items-center my-4">
+                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--PYOjynJN--/c_imagga_scale,f_auto,fl_progressive,h_100,q_auto,w_100/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/784473/1770dea2-974d-4565-983b-8d4975713aa3.png" alt="img_invalid" class="rounded-circle img-readnext mx-3"/>
+                <div>
+                  <h3 class="font__readnext mb-0 lh-tight">What is your favourite coding language?</h3>
+                  <p class="text-muted font_readnextp fw-light mb-0">InvalidLenni - Jul 20</p>
+                </div>
+              </div>
+              <div class="d-flex align-self-center align-items-center my-4">
+                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ghhAZTTg--/c_imagga_scale,f_auto,fl_progressive,h_100,q_auto,w_100/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/219980/bf8e562f-c91a-446d-afa0-95b2d51718d7.png" alt="img_ardash" class="rounded-circle img-readnext mx-3"/>
+                <div>
+                  <h3 class="font__readnext mb-0 lh-tight">Can I share GitHub copilot like Netflix account?</h3>
+                  <p class="text-muted font_readnextp fw-light mb-0">Adarsh Madrecha - Jul 20</p>
+                </div>
+              </div>
+            </section> 
+        
+        
+        
+            </main>
+        
+            <script
+              src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+              integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+              crossorigin="anonymous"
+            ></script>
+            <script
+              src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+              integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+              crossorigin="anonymous"
+            ></script>
+          </body>
+        </html>
+          </div>
+    
+          <div class="col-3 d-none d-lg-flex order-md-3">
+            <div class="row">
+              <section class="">
+
+               <div class="card profile text-bg-white">
+                   <p class="text-dark bg-dark rounded-top">text dark</p>
+                   <img src="./assets/asideright/Nicktaylor.jpg" width="45px" height="45px" class="card-img1 rounded-circle mt-2 ms-3" alt="Nick Taylor">
+                   
+                   <div class="card-img-overlay">
+                     <h5 class="card-title-nick ps-3 mt-3" >Nick Taylor</h5>
+                   </div>
+                   <div class="d-grid gap-2 button1 mt-4 p-3">
+                    <button type="button" class="follow-button btn btn-primary">Follow</button>
+                  </div>
+                  
+                  <small>
+                   <ul class="p-3 pb-0">
+                    <li class="list-group-item p-0">
+                        <p class="fw-light">Staff Software Enginner at Netlify</p></li>
+                    <li class="list-group-item p-0 m-0">
+                        <p class="mb-0">LOCATION</p>
+                        <p class="fw-normal">Montréal, Québec, Canada</p>
+
+                  </li>
+                    <li class="list-group-item p-0 mb-0">
+                       <p class="mb-0">EDUCATION</p>
+                        <p class="fw-normal">University of New Brunswick</p>
+                     </li>
+                    <li class="list-group-item p-0" ><P class="mb-0">WORK</P>
+                        <P class="fw-normal">Netlify</P></li>
+                    <li class="list-group-item p-0"><P class="mb-0">JOINED</P>
+                        <P class="fw-normal ">Mar 11, 2017</P></li></ul>
+                      </small>
+
+                </div>
+
+
+
+          
+           <section>
+               <section class="card my-4 p-3">
+                   <article class="d-flex">
+                       <p class="more ">More from <a href="">Nick Taylor</a> </p>
+                   </article>
+
+                   <ul class="list-group list-group-flush pt-3">
+                    <small>
+                    <li class="list-group-item p-0"><p class="mb-0">July 21st, 2022: What did you learn this week?</p>
+                    <p class="fw-light">#weeklyretro    #weeklylearn   #discuss</p></li>
+                    <li class="list-group-item p-0"><p class="mb-0">July 14th, 2022: What did you learn this week?</p>
+                        <p class="fw-light">#weeklyretro    #weeklylearn   #discuss</p></li>
+                    <li class="list-group-item p-0" ><P class="mb-0">July 7th, 2022: What did you learn this week?</P>
+                        <P class="fw-light">#weeklyretro    #weeklylearn   #discuss</P></li>
+                      </small>
+                </ul>
+          
+               </section>
+              
+           </section>
+           </section>
             </div>
-            <div class="button1 mt-5 ms-5"><button type="button" class="btn btn-primary">Folow</button></div>
-            </div>
-    </section>
+          </div>
+        </div>
 
-    <section class="card mb-3">
-        <ul class="list-group list-group-flush">
-        <li class="list-group-item p-0">
-            <p>Staff Software Enginner at Netlify</p></li>
-        <li class="list-group-item p-0"><p>LOCATION</p>
-        <p>Montréal, Québec, Canada</p></li>
-        <li class="list-group-item p-0"><p>EDUCATION</p>
-            <p>University of New Brunswick</p></li>
-        <li class="list-group-item p-0" ><P>WORK</P>
-            <P>Netlify</P></li>
-        <li class="list-group-item p-0"><P>JOINED</P>
-            <P>Mar 11, 2017</P></li></ul>
-    </section>
 
-    <section>
-        <section class="card">
-            <article class="d-flex justify-content-around">
-                <p class="more" style="font-weight: bold;">More info</p><p class="nic" style="font-weight: bold;">Nick taylor</p>
-            </article>
+  
+  
+  
 
-        </section>
-        <section class="card">
-             <ul class="list-group list-group-flush">
-           
-            <li class="list-group-item p-0"><p>July 21st, 2022: What did you learn this week?</p>
-            <p>#weeklyretro    #weeklylearn   #discuss</p></li>
-            <li class="list-group-item p-0"><p>July 14th, 2022: What did you learn this week?</p>
-                <p>#weeklyretro    #weeklylearn   #discuss</p></li>
-            <li class="list-group-item p-0" ><P>July 7th, 2022: What did you learn this week?</P>
-                <P>#weeklyretro    #weeklylearn   #discuss</P></li>
-        </ul>
-        </section>
-       
-    </section>
-    </section>
+    </div>
+
+
+
+
     <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
