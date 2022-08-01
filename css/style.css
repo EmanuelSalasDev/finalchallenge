@@ -54,6 +54,15 @@
   border-color: black;
 }
 
+.background-new {
+  background-color: #FCD34D;
+  color: #6f5604;
+}
+
+.container-aside {
+  max-width: 264px;
+}
+
 body {
   background-color: #FAFAFA;
 }
@@ -483,11 +492,6 @@ nav {
   text-decoration: underline;
 }
 
-@media (min-width: 768px) {
-  .aside-elements {
-    width: 212.57px;
-  }
-}
 * {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
