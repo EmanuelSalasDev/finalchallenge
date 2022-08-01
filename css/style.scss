@@ -1,1 +1,12 @@
+
 @use "asideright";
+@use 'main-section';
+@use "nav";
+@use "footer";
+@use "aside-post";
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
