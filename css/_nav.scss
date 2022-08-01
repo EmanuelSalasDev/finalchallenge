@@ -39,23 +39,6 @@
     width: 90vw!important;
 }
 
-.side-button{
-    background-color: white;
-    border-style: none;
-    color: gray;
-    height: 50px;
-}
-
-.aside-button:hover{
-    background-color: rgb(226, 227, 243);
-    color: rgb(59, 73, 223);
-    text-decoration: underline;
-}
-.side-button:hover{
-    background-color: rgb(226, 227, 243);
-    color: rgb(59, 73, 223);
-    text-decoration: underline;
-}
 
 .card{
     border-style: solid;
@@ -96,8 +79,23 @@
     }
 }
 
+.side-button{
+    background-color: transparent;
+    border-style: none;
+    color: gray;
+    height: 50px;
+}
+
+.side-button:hover{
+    background-color: rgb(226, 227, 243);
+    color: rgb(59, 73, 223);
+    text-decoration: underline;
+}
+
+
 @media (min-width: 768px) {
     .aside-elements{
         width: 212.57px;
     }    
+    
 }
