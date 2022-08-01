@@ -26,11 +26,30 @@
 }
 
 .btn btn-light {
-  background-color: royalblue !important;
+  align-items: center !important;
+  background-color: royalblue;
 }
 
 .card-link--n {
   color: slateblue;
   text-align: center;
   text-decoration: none;
+}
+
+.cardimg {
+  width: 350px;
+  height: 150px;
+  align-items: center;
+}
+
+.list12 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-for {
+  height: 270px;
+  width: 380px;
+  border: 2px;
+  border-color: black;
 }/*# sourceMappingURL=style.css.map */
