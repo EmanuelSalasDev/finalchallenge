@@ -77,9 +77,10 @@ body{
         }
         &--text{
             display: inline-block;
-            line-height: 5px;
             position: absolute;
-            padding: 10px 0 0 12px;
+            margin: 0px 0 0 12px;
+            font-size: 12px;
+            font-family:  "Helvetica Neue", Arial, sans-serif;
         }
         &--textsing{
             display: inline-block;
@@ -90,18 +91,44 @@ body{
     }
 
     &__text{
+
+        &--profile{
+            margin-bottom: 0;
+            font-weight: 500;
+            color:rgb(64, 64, 64);
+        }
+
+
+        &--normal{
+            font-family:  "Helvetica Neue", Arial, sans-serif;
+            font-weight: 100;
+            // color: crimson;
+        }
         
         &--top{
             display: inline-block;
-            font-weight: 700;
             text-decoration: none;
             color:black;
+            margin-bottom: 5px;
             &:hover{
                 background-color: rgb(242, 242, 242);
                 color:black;
             }
         }
+
+        &--topplural{
+            display: inline-block;
+            text-decoration: none;
+            color:black;
+            margin-bottom: 0px;
+            &:hover{
+                background-color: rgb(242, 242, 242);
+                color:black;
+            }
+        }
+
         &--bottom{
+            line-height: 5px;
             font-family:  "Helvetica Neue", Arial, sans-serif;
             font-size: 10px;
             font-weight: 100;
@@ -136,6 +163,7 @@ body{
         padding:2px 7px;
         border: 1px solid white;
         font-family:  "Helvetica Neue", Arial, sans-serif;
+        color: black;
         font-size: 12px;
         font-weight: 100;
         &--generic:hover{
@@ -213,6 +241,7 @@ body{
             margin-left: 5px;
             font-family: 'Helvetica Neue';
             color:gray;
+            padding:0 5px;
             text-decoration:none;
             border-radius: 5px;
             display:inline-block;
@@ -264,6 +293,14 @@ body{
     .card{
         &__top{
             margin-bottom: 10px;
+        }
+        &__text{
+            &--profile{
+                margin-bottom: 5px;
+            }
+            &--top{
+                margin-bottom: 0;
+            }
         }
         &__mid{
             margin: 0 48px;

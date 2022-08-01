@@ -70,9 +70,10 @@ body {
 }
 .card__div--text {
   display: inline-block;
-  line-height: 5px;
   position: absolute;
-  padding: 10px 0 0 12px;
+  margin: 0px 0 0 12px;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 .card__div--textsing {
   display: inline-block;
@@ -80,17 +81,37 @@ body {
   position: absolute;
   padding: 0 0 0 12px;
 }
+.card__text--profile {
+  margin-bottom: 0;
+  font-weight: 500;
+  color: rgb(64, 64, 64);
+}
+.card__text--normal {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 100;
+}
 .card__text--top {
   display: inline-block;
-  font-weight: 700;
   text-decoration: none;
   color: black;
+  margin-bottom: 5px;
 }
 .card__text--top:hover {
   background-color: rgb(242, 242, 242);
   color: black;
 }
+.card__text--topplural {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 0px;
+}
+.card__text--topplural:hover {
+  background-color: rgb(242, 242, 242);
+  color: black;
+}
 .card__text--bottom {
+  line-height: 5px;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 10px;
   font-weight: 100;
@@ -121,6 +142,7 @@ body {
   padding: 2px 7px;
   border: 1px solid white;
   font-family: "Helvetica Neue", Arial, sans-serif;
+  color: black;
   font-size: 12px;
   font-weight: 100;
 }
@@ -194,6 +216,7 @@ body {
   margin-left: 5px;
   font-family: "Helvetica Neue";
   color: gray;
+  padding: 0 5px;
   text-decoration: none;
   border-radius: 5px;
   display: inline-block;
@@ -239,6 +262,12 @@ body {
 @media (min-width: 768px) {
   .card__top {
     margin-bottom: 10px;
+  }
+  .card__text--profile {
+    margin-bottom: 5px;
+  }
+  .card__text--top {
+    margin-bottom: 0;
   }
   .card__mid {
     margin: 0 48px;
