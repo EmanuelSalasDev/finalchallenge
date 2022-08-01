@@ -8,6 +8,13 @@
     border-color: rgb(206, 212, 218);
 }
 
+.profile-picture__img-2{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(206, 212, 218);
+    width: 70px;
+}
+
 .form-control{
     width: 400px;
     padding-right: 50px;
@@ -90,4 +97,15 @@
     background-color: rgb(226, 227, 243);
     color: rgb(59, 73, 223);
     text-decoration: underline;
+}
+
+.aside-bottom{
+    background-color: #FAFAFA
+}
+
+.card-body-post{
+    border-style: solid;
+    border-radius: 5px;
+    border-color:#720000;
+    box-shadow: 3px 3px 0px #720000
 }
