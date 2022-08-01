@@ -233,7 +233,7 @@ body{
     &__bottom{
         &--icons{
             display:inline-block;
-
+            width: 56%;
             position:relative;
         }
         .card__item{
@@ -315,6 +315,16 @@ body{
             }
             &--text{
                 display:inline
+            }
+        }
+    }
+}
+
+@media (min-width:1024px){
+    .card{
+        &__bottom{
+            &--icons{
+                width: 72%;
             }
         }
     }
